@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+serviceAccountKey.json
+.ipynb_checkpoints/
+.idea/
+dataset/
+training/
+Diagrams/
+*.ipynb
+streamlit_boot.err
+streamlit_boot.out

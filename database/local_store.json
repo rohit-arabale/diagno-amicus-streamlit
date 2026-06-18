@@ -1,0 +1,1059 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "rohit",
+      "mobile": "7894561230",
+      "age": 25,
+      "gender": "Male",
+      "password": "e519d416c8b2623331c17695e7c6ab641e96cd0ce3f636b097b1be68fd793e16"
+    },
+    {
+      "id": 2,
+      "name": "arnav",
+      "mobile": "9876541230",
+      "age": 25,
+      "gender": "Male",
+      "password": "dca9646726f98a04cdebdda98ded9bb2fc364789bbf4b43397ac19470a0df38f"
+    },
+    {
+      "id": 3,
+      "name": "rohitaa",
+      "mobile": "7418529630",
+      "age": 25,
+      "gender": "Male",
+      "password": "2203b801dbee88fb852d71459d8a503837f5368037897c92e513850377a54cc4"
+    },
+    {
+      "id": 4,
+      "name": "rohits",
+      "mobile": "0123456789",
+      "age": 25,
+      "gender": "Male",
+      "password": "83fbf4e7c44c8bd9987cf36e1b87cb4091dd7345c5c8a21ad4d91bd3015bd6d1"
+    },
+    {
+      "id": 5,
+      "name": "Pratik",
+      "mobile": "7418529630",
+      "age": 25,
+      "gender": "Male",
+      "password": "dca9646726f98a04cdebdda98ded9bb2fc364789bbf4b43397ac19470a0df38f"
+    }
+  ],
+  "predictions": [
+    {
+      "id": 1,
+      "user_id": "local:1",
+      "timestamp": "2026-04-27 18:18",
+      "input_data": {
+        "Patient Name": "rohit",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 2,
+      "user_id": "local:1",
+      "timestamp": "2026-04-27 18:18",
+      "input_data": {
+        "Patient Name": "rohit",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 3,
+      "user_id": "local:1",
+      "timestamp": "2026-04-27 18:19",
+      "input_data": {
+        "Patient Name": "rohit",
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Liver Disease": 0.5159268919096561
+      },
+      "top_disease": "Liver Disease",
+      "top_probability": 0.5159268919096561
+    },
+    {
+      "id": 4,
+      "user_id": "local:1",
+      "timestamp": "2026-04-27 18:19",
+      "input_data": {
+        "Patient Name": "rohit",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0,
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0,
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879,
+        "Heart Disease": 0.5562670682276557,
+        "Liver Disease": 0.5159268919096561
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 5,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 19:37",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 6,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 19:37",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 7,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 19:37",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Liver Disease": 0.5159268919096561
+      },
+      "top_disease": "Liver Disease",
+      "top_probability": 0.5159268919096561
+    },
+    {
+      "id": 8,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 19:38",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0,
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0,
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879,
+        "Heart Disease": 0.5562670682276557,
+        "Liver Disease": 0.5159268919096561
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 9,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 20:05",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 10,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 20:11",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 11,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 20:12",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 12,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 20:12",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Liver Disease": 0.5159268919096561
+      },
+      "top_disease": "Liver Disease",
+      "top_probability": 0.5159268919096561
+    },
+    {
+      "id": 13,
+      "user_id": "local:2",
+      "timestamp": "2026-04-27 20:12",
+      "input_data": {
+        "Patient Name": "arnav",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0,
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0,
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879,
+        "Heart Disease": 0.5562670682276557,
+        "Liver Disease": 0.5159268919096561
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 14,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 19:41",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 15,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 19:44",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 16,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:39",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 17,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:40",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0
+      },
+      "results": {
+        "Diabetes": 0.56883657361879
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.56883657361879
+    },
+    {
+      "id": 18,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:48",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.5562670682276557
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.5562670682276557
+    },
+    {
+      "id": 19,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:53",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 20,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:55",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 21,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:56",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 189.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 22,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:56",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 189.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 23,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:56",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 189.0,
+        "Resting BP": 115.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 24,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:56",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 189.0,
+        "Resting BP": 115.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 25,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:56",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 184.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.07585818002124355
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.07585818002124355
+    },
+    {
+      "id": 26,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 20:59",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 27,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 21:00",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 162.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 28,
+      "user_id": "local:3",
+      "timestamp": "2026-05-02 21:00",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 162.0,
+        "Resting BP": 112.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 29,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:28",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 30,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:29",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 132.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.13010847436299786
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.13010847436299786
+    },
+    {
+      "id": 31,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:29",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 132.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.13010847436299786
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.13010847436299786
+    },
+    {
+      "id": 32,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:29",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 132.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.13010847436299786
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.13010847436299786
+    },
+    {
+      "id": 33,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:29",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 200.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.9608342772032357
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.9608342772032357
+    },
+    {
+      "id": 34,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:30",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0
+      },
+      "results": {
+        "Diabetes": 0.09112296101485616
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.09112296101485616
+    },
+    {
+      "id": 35,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:31",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Liver Disease": 0.039165722796764356
+      },
+      "top_disease": "Liver Disease",
+      "top_probability": 0.039165722796764356
+    },
+    {
+      "id": 36,
+      "user_id": "local:3",
+      "timestamp": "2026-05-04 08:33",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 37,
+      "user_id": "local:4",
+      "timestamp": "2026-05-04 11:28",
+      "input_data": {
+        "Patient Name": "rohits",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 38,
+      "user_id": "local:4",
+      "timestamp": "2026-05-04 11:28",
+      "input_data": {
+        "Patient Name": "rohits",
+        "Cholesterol": 200.0,
+        "Resting BP": 150.0,
+        "Max Heart Rate": 170.0
+      },
+      "results": {
+        "Heart Disease": 0.36586440898919936
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.36586440898919936
+    },
+    {
+      "id": 39,
+      "user_id": "local:4",
+      "timestamp": "2026-05-04 14:51",
+      "input_data": {
+        "Patient Name": "rohits",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 40,
+      "user_id": "local:4",
+      "timestamp": "2026-05-04 14:51",
+      "input_data": {
+        "Patient Name": "rohits",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0
+      },
+      "results": {
+        "Diabetes": 0.09112296101485616
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.09112296101485616
+    },
+    {
+      "id": 41,
+      "user_id": "local:4",
+      "timestamp": "2026-05-04 14:52",
+      "input_data": {
+        "Patient Name": "rohits",
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Liver Disease": 0.039165722796764356
+      },
+      "top_disease": "Liver Disease",
+      "top_probability": 0.039165722796764356
+    },
+    {
+      "id": 42,
+      "user_id": "local:4",
+      "timestamp": "2026-05-04 14:52",
+      "input_data": {
+        "Patient Name": "rohits",
+        "Glucose": 100.0,
+        "BMI": 22.0,
+        "Insulin": 15.0,
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0,
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Diabetes": 0.09112296101485616,
+        "Heart Disease": 0.057324175898868755,
+        "Liver Disease": 0.039165722796764356
+      },
+      "top_disease": "Diabetes",
+      "top_probability": 0.09112296101485616
+    },
+    {
+      "id": 43,
+      "user_id": "local:3",
+      "timestamp": "2026-05-05 11:48",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 44,
+      "user_id": "local:3",
+      "timestamp": "2026-05-05 15:08",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Bilirubin": 0.8,
+        "ALT": 30.0,
+        "AST": 25.0
+      },
+      "results": {
+        "Liver Disease": 0.039165722796764356
+      },
+      "top_disease": "Liver Disease",
+      "top_probability": 0.039165722796764356
+    },
+    {
+      "id": 45,
+      "user_id": "local:3",
+      "timestamp": "2026-05-05 21:08",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 46,
+      "user_id": "local:3",
+      "timestamp": "2026-05-07 09:29",
+      "input_data": {
+        "Patient Name": "rohitaa",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 47,
+      "user_id": "local:5",
+      "timestamp": "2026-05-07 11:01",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Basal Cell Carcinoma": 0.8914955258369446
+      },
+      "top_disease": "Basal Cell Carcinoma",
+      "top_probability": 0.8914955258369446
+    },
+    {
+      "id": 48,
+      "user_id": "local:5",
+      "timestamp": "2026-05-07 16:14",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Dermatofibroma": 0.99
+      },
+      "top_disease": "Dermatofibroma",
+      "top_probability": 0.99
+    },
+    {
+      "id": 49,
+      "user_id": "local:5",
+      "timestamp": "2026-05-07 16:22",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Dermatofibroma": 0.99
+      },
+      "top_disease": "Dermatofibroma",
+      "top_probability": 0.99
+    },
+    {
+      "id": 50,
+      "user_id": "local:5",
+      "timestamp": "2026-05-07 17:41",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Dermatofibroma": 0.99
+      },
+      "top_disease": "Dermatofibroma",
+      "top_probability": 0.99
+    },
+    {
+      "id": 51,
+      "user_id": "local:5",
+      "timestamp": "2026-05-08 11:09",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Basal Cell Carcinoma": 0.8445747762918472
+      },
+      "top_disease": "Basal Cell Carcinoma",
+      "top_probability": 0.8445747762918472
+    },
+    {
+      "id": 52,
+      "user_id": "local:5",
+      "timestamp": "2026-05-08 12:55",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Normal Skin": 0.8468975514173508
+      },
+      "top_disease": "Normal Skin",
+      "top_probability": 0.8468975514173508
+    },
+    {
+      "id": 53,
+      "user_id": "local:5",
+      "timestamp": "2026-05-08 12:56",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Basal Cell Carcinoma": 0.8420000000000001
+      },
+      "top_disease": "Basal Cell Carcinoma",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 54,
+      "user_id": "local:5",
+      "timestamp": "2026-05-08 12:57",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Normal Skin": 0.8420000000000001
+      },
+      "top_disease": "Normal Skin",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 55,
+      "user_id": "local:5",
+      "timestamp": "2026-05-08 12:57",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Melanoma": 0.8420000000000001
+      },
+      "top_disease": "Melanoma",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 56,
+      "user_id": "local:5",
+      "timestamp": "2026-05-08 13:08",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Melanoma": 0.8420000000000001
+      },
+      "top_disease": "Melanoma",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 57,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:28",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Normal Skin": 0.8420000000000001
+      },
+      "top_disease": "Normal Skin",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 58,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:37",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Normal Skin": 0.8420000000000001
+      },
+      "top_disease": "Normal Skin",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 59,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:37",
+      "input_data": {
+        "Patient Name": "Pratik",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 60,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:43",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Benign Keratosis": 0.8420000000000001
+      },
+      "top_disease": "Benign Keratosis",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 61,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:45",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Normal Skin": 0.8420000000000001
+      },
+      "top_disease": "Normal Skin",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 62,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:48",
+      "input_data": {
+        "Patient Name": "Pratik"
+      },
+      "results": {
+        "Basal Cell Carcinoma": 0.8420000000000001
+      },
+      "top_disease": "Basal Cell Carcinoma",
+      "top_probability": 0.8420000000000001
+    },
+    {
+      "id": 63,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:49",
+      "input_data": {
+        "Patient Name": "Pratik",
+        "Cholesterol": 180.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.057324175898868755
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.057324175898868755
+    },
+    {
+      "id": 64,
+      "user_id": "local:5",
+      "timestamp": "2026-05-15 09:50",
+      "input_data": {
+        "Patient Name": "Pratik",
+        "Cholesterol": 250.0,
+        "Resting BP": 110.0,
+        "Max Heart Rate": 150.0
+      },
+      "results": {
+        "Heart Disease": 0.549833997312478
+      },
+      "top_disease": "Heart Disease",
+      "top_probability": 0.549833997312478
+    }
+  ],
+  "next_user_id": 6,
+  "next_prediction_id": 65
+}
